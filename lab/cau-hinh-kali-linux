@@ -1,0 +1,18 @@
+# Môi trường Máy ảo Tấn công (Kali Linux Lab Environment)
+
+Phần này mô tả thông số cấu hình và các thành phần của máy ảo Kali Linux dùng làm trạm kiểm thử (Attacker Machine) trong mô hình bài tập lớn An toàn thông tin.
+
+## 1. Thông số kỹ thuật máy ảo (VM Configuration)
+* **Hệ điều hành:** Kali Linux (64-bit)
+* **Nền tảng ảo hóa:** VMware Workstation
+* **Cấu hình phần cứng phân bổ:**
+  * **RAM:** 4 GB
+  * **CPU:** 2 Cores / Processors
+  * **Dung lượng ổ cứng:** 20 GB
+  * **Cấu hình mạng:** Host-only Adapter (Đảm bảo cô lập tuyệt đối, phục vụ an toàn kiểm thử)
+
+## 2. Các công cụ kiểm thử chính (Security Tools)
+Môi trường Kali Linux được trang bị sẵn các công cụ để tiến hành rà quét và phân tích lỗ hổng trên ứng dụng mục tiêu (DVWA):
+* **Nmap / Ncat:** Trinh sát mạng, quét cổng và phát hiện dịch vụ.
+* **Wireshark:** Bắt và phân tích gói tin mạng (Network Packet Analysis).
+* **Burp Suite / OWASP ZAP:** Phân tích lưu lượng HTTP/HTTPS và kiểm thử lỗ hổng Web (như SQL Injection, XSS trên DVWA).
