@@ -1,0 +1,12 @@
+1. Thông tin tài khoản mặc định
+- Username: msfadmin
+- Password: msfadmin
+
+2. Thông số kỹ thuật hệ thống (System Information)
+- Hệ điều hành:** Metasploitable 2 (Linux Ubuntu-based vulnerable image)
+- Dung lượng ổ cứng root (/): Khoảng 7.0 GB (đã sử dụng khoảng 1.5 GB)[cite: 10]
+- Phân vùng boot:** Khoảng 228 MB[cite: 10]
+- Cấu hình mạng:** Host-only Adapter (Cô lập trong mạng nội bộ lab cùng với Kali Linux và DVWA)
+
+3. Mục đích sử dụng trong lab
+- Đóng vai trò là máy chủ mục tiêu chứa sẵn các dịch vụ cũ và lỗ hổng cố ý để tiến hành trinh sát, quét cổng bằng Nmap, khai thác bằng Metasploit và thực hiện các bước vá lỗi (hardening).
